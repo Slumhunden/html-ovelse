@@ -1,3 +1,48 @@
-body{ background-color: darkkhaki
-    color:blue
-    font-family comic;}
+/*Farve*/
+body {
+  background-color: darkkhaki;
+  color: blue font-family comic;
+}
+h1 {
+  background-color: blueviolet;
+  color: cornsilk;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+}
+/* Design*/
+#billede1{
+  text-align: center;
+  font-size: medium;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 2.5;
+  border: double;
+  
+}
+#ingredienser{
+    background-color: chocolate;
+    text-align: left;
+    margin: auto;
+    margin-left: 5%;
+    border: ridge;
+}
+
+h3 {
+  text-align: left;
+  margin: auto;
+  margin-left: 10%;
+  line-height: 2.0;
+}
+#tilbehør{
+    background-color: blanchedalmond;
+    text-align: left;
+    margin-left: 5%;
+    border: ridge;
+}
+#bestilling{
+    background-color: red;
+    text-align: right;
+    border: ridge;
+}
+nav{
+    text-align: left;
+}
