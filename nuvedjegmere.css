@@ -36,7 +36,22 @@ body {
         "footer footer footer";
     }
 }
-
+@media (min-width: 1120px) {
+    .grid-container {
+        grid-template-areas:
+        "header header header"
+        "nav article aside"
+        "footer footer footer";
+    }
+}
+@media (min-width: 1400px) {
+    .grid-container {
+        grid-template-areas:
+        "header header header"
+        "nav article aside"
+        "footer footer footer";
+    }
+}
 header {
   grid-area: header;
   background-color: cadetblue;
