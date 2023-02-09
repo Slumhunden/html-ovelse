@@ -12,6 +12,31 @@ body {
   grid-template-rows: 20vh auto 20vh;
   grid-template-columns: 33.33% 33.33% 33.33%;
 }
+@media (min-width: 280px) {
+    .grid-container {
+        grid-template-areas:
+        "header header header"
+        "nav article aside"
+        "footer footer footer";
+    }
+}
+@media (min-width: 560px) {
+    .grid-container {
+        grid-template-areas:
+        "header header header"
+        "nav article aside"
+        "footer footer footer";
+    }
+}
+@media (min-width: 840px) {
+    .grid-container {
+        grid-template-areas:
+        "header header header"
+        "nav article aside"
+        "footer footer footer";
+    }
+}
+
 header {
   grid-area: header;
   background-color: cadetblue;
